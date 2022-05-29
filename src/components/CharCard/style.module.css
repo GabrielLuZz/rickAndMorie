@@ -1,0 +1,32 @@
+.card {
+  width: 250px;
+  height: 300px;
+  border: 1px solid #e2e2e3;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #83bfcc;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.info {
+  text-align: right;
+  width: 100%;
+}
+
+.specie {
+  font-weight: 600;
+  color: #000;
+}

@@ -1,0 +1,17 @@
+.tela {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  margin: 20px 0px;
+  font-weight: 800;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 30px;
+}
