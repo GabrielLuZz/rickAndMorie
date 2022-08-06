@@ -39,8 +39,16 @@ function App() {
     <>
       <Characters characterList={characterList} />
 
-      <BsFillArrowLeftCircleFill onClick={previousPage} className="arrowLeft" />
-      <BsFillArrowRightCircleFill onClick={nextPage} className="arrowRight" />
+      {info?.prev && (
+        <BsFillArrowLeftCircleFill
+          onClick={previousPage}
+          className="arrowLeft"
+        />
+      )}
+
+      {info?.next && (
+        <BsFillArrowRightCircleFill onClick={nextPage} className="arrowRight" />
+      )}
     </>
   );
 }
